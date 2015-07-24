@@ -6,7 +6,7 @@ I think what strikes me most about giving the workshop and my overall experience
 Concerning the workshop directly, I was really happy to see the large interest in the live coding graphics. I hope the workshop benefited those who attended. I know that I learned an enormous amount from watching them use the tool, especially how they find bugs, discover errors, and develop usage patterns. The attendees had many excellent ideas for features or changes that they would like to have - many of which I’m planning to implement. For me, giving the workshop was incredibly valuable as a live coder, software developer, and teacher. I would gladly do it again; would like to think that attendees would gladly choose the workshop again too.
 
 ## The ICLC2015 that was
-* Mike Hodnick*
+*Mike Hodnick*
 
 Originally posted at: http://kindohm.tumblr.com/post/124486509248/the-iclc2015-that-was
 
@@ -32,3 +32,13 @@ Thank you to all the event organizers - Alex, Shelly, Kia, Thor, Joanne, and Ash
 
 1. While I’ve attempted to execute precise, repeatable performances using live-coding techniques, they’ve never gone according to plan and I’ve always improvised to some extent - whether that’s to fix minor errors, get back on track after a major disruption, or just decide to change course.
 2. The heart of live-coded music is in the UK, with more strong representation throughout the rest of Europe, Mexico City, Australia, and a few other corners. There are few of us scattered across the U.S.
+
+## An Infinite loop
+*Juan Gabriel Alzate Romero*
+
+~~~~c++
+while( me.isHavingFun && ICLC.isInteresting ) {
+	ICLC.repeat();
+	me.visit(ICLC.next());
+};
+~~~~
